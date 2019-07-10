@@ -1,0 +1,87 @@
+/* // TicTacToe ///////////////////////////////////////////////////////////// */
+
+table {
+  background-color: rgba(138, 132, 166, 0.4);
+  display: inline-block;
+}
+
+.top {
+  border-top: 1px solid white;
+}
+
+.bottom {
+  border-bottom: 1px solid white;
+}
+
+td:first-child {
+  border-left: 1px solid white;
+}
+
+td:last-child {
+  border-right: 1px solid white;
+}
+
+td {
+  border: 1px solid black;
+  padding: 0.5px;
+}
+
+td, a {
+  width: 60px;
+  height: 60px;
+}
+
+a {
+  display: block;
+}
+
+.ace-blue {
+  background-image: url(../images/ace-blue.png);
+  background-size: contain;
+}
+
+.ace-red {
+  background-image: url(../images/ace-red.png);
+  background-size: contain;
+}
+.orbit-blue {
+  background-image: url(../images/orbit-blue.png);
+  background-size: contain;
+}
+
+.orbit-red {
+  background-image: url(../images/orbit-red.png);
+  background-size: contain;
+}
+.wolf-head-blue {
+  background-image: url(../images/wolf-head-blue.png);
+  background-size: contain;
+}
+
+.wolf-head-red {
+  background-image: url(../images/wolf-head-red.png);
+  background-size: contain;
+}
+
+.gameOver {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.iconSelector {
+  display: inline-block;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+button {
+  visibility: hidden;
+}
+
+body {
+  width: 960px;
+  margin: 40px auto;
+  background-color: rgba(31, 40, 161, 0.44);
+}
