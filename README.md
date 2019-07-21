@@ -2,7 +2,13 @@
 
 This is a simple game I built because Joel made me.
 
+## Link
+[Tic Tac Toe](https://victorzw895.github.io/project0-tictactoe/)
+
 ## Features
+- 2 player game
+- Each player can select custom token
+- Replay after a player has won 3 rounds
 
 
 ## Current Bugs
